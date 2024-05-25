@@ -1,0 +1,90 @@
+.container {
+    padding: 20px 0;
+    margin: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 200px;
+}
+a {
+    text-decoration: none; 
+}
+.titulo {
+    position: relative;
+    margin: 0;
+    opacity: 100%;
+    z-index: 2;
+}
+.imagem1, .imagem2 {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.imagem1 {
+    position: absolute;
+    width: 100%;
+}
+.cad_ped_promo {
+    position: relative;
+    top: 0;
+    left: 0;
+    border-radius: 25px;
+    margin-left: 40px;
+    background-position: left top;
+    background-repeat: repeat;
+    opacity: 80%;
+    z-index: 1;
+}
+.imagensAnimais{
+    border-radius: 25px;
+    margin-top: 0;
+    margin-right: 36px;
+    margin-bottom: 36px;
+    margin-left: 36px;
+    background: url();
+    height: 265px;
+    width: 265px;
+    background-position: left top;
+    background-repeat: repeat;
+}
+.imagensProdutos{
+    border-radius: 25px;
+    margin-top: 0;
+    margin-right: 35px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+    background: url();
+    height: 350px;
+    width: 350px;
+    background-position: left top;
+    background-repeat: repeat;
+}
+.divisoria {
+    position: relative;
+    top: -65px;
+    border: 0;  
+    height: 30px;
+    background-color: #e4c161; 
+}
+img:hover {
+    opacity: 0.5;
+}
+.fonte{
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #FF8C00;
+}
+.retangulo {
+    padding: 20px;
+    margin: 0 auto;
+    width: 100%;
+    height: 80px;
+}
+
+body { overflow-x: hidden; }
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+

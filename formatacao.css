@@ -84,7 +84,7 @@ img:hover {
 body { overflow-x: hidden; }
 
 table, th, td {
-    border: 1px solid black;
+    border: none;
     border-collapse: collapse;
 }
 
